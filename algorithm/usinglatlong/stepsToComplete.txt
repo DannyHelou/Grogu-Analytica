@@ -1,0 +1,8 @@
+1. Put coords into array format
+    a. run a loop through the coordinate values and check for the number of x changes in value before there is a y change,
+    set the found value as the x length of the np array.
+    b. run a loop through the coordinate values and count the number of times the y value changes, set this as the y value of the np array
+    c. account for the outer ranges.
+2. Initialize Array as graph of nodes
+    a. Run through the list and initiliaze each increment as a node with height values.
+    b. Do another run through of the who of the list and set all directions values(LEFT, RIGHT) etc...
