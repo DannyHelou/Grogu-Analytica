@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>75.kml</name>
+	<Style id="style134">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="style46">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="stylemap_id042">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style134</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style46</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>WADI 55</name>
+		<styleUrl>#stylemap_id042</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				56.20961689717082,25.97940951617671,0 56.20962493368511,25.97964686980817,0 56.20966315041793,25.97985508451895,0 56.20969990938827,25.97998155287864,0 56.20977334091949,25.98022195405469,0 56.20980788112469,25.98048730508462,0 56.20983126724609,25.98064915440354,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

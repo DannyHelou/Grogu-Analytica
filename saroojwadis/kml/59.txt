@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>59.kml</name>
+	<Style id="style118">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="stylemap_id039">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style118</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style53">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>WADI 43</name>
+		<styleUrl>#stylemap_id039</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				56.23064389056062,25.96396293577977,0 56.23095362984098,25.96459707293013,0 56.23142700589118,25.96534543408802,0 56.23153533512453,25.96566686481694,0 56.23186065351933,25.9663101598094,0 56.23178948164136,25.96636805165563,0 56.2317181065965,25.96639164377653,0 56.2315745906165,25.96608330826935,0 56.23157280651468,25.96607974808427,0 56.23138403347654,25.9657359194642,0 56.23137694572095,25.96573388340335,0 56.23113337725989,25.96533094225441,0 56.23087570693967,25.96495669432147,0 56.23086837470781,25.96495427181281,0 56.23036116318643,25.96403988785553,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

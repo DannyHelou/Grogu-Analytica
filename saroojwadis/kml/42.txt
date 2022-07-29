@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>WADI 42.kml</name>
+	<StyleMap id="stylemap_id067">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style55</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style55">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="style40">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>WADI 28</name>
+		<styleUrl>#stylemap_id067</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				56.20919289184687,25.83891759292074,0 56.20978723453079,25.83964146917204,0 56.21038008392223,25.84023888721917,0 56.21149706649119,25.84125913895346,0 56.21152200523085,25.8412759536274,0 56.21157471482276,25.8412974863929,0 56.21161092493824,25.84132874463891,0 56.21290927540644,25.84225263554587,0 56.21293367722581,25.84226882187163,0 56.21378869057312,25.84280475006063,0 56.21420805378119,25.84299484369064,0 56.21388509629725,25.84365694196338,0 56.21386166589571,25.84367174079383,0 56.21304267574496,25.84371682613372,0 56.21164041403706,25.84308501263556,0 56.21098708039064,25.84222074445196,0 56.21097008131854,25.84219924836627,0 56.21093038595841,25.84214905147786,0 56.21040986228369,25.8409531581906,0 56.2093164727481,25.84003792630206,0 56.20927560734764,25.84001771438582,0 56.20819366089472,25.83940754832397,0 56.20799618170255,25.83926748386922,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

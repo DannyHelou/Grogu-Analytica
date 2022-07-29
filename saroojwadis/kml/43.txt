@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>WADI 43.kml</name>
+	<StyleMap id="stylemap_id046">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style35">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="style13">
+		<LineStyle>
+			<color>ffe65879</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>WADI 29</name>
+		<styleUrl>#stylemap_id046</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				56.2199337534244,25.85150771965899,0 56.2199461253119,25.8514873001549,0 56.22028989960558,25.85085717799605,0 56.22016202914884,25.85048088494991,0 56.22014991389482,25.85046555272228,0 56.22013669371549,25.85043728467936,0 56.2197146286363,25.85002289182692,0 56.2197029991362,25.85001400310256,0 56.21946847416886,25.84961594868858,0 56.21947836846012,25.84960524612842,0 56.21991204018453,25.84952731973929,0 56.22031818508732,25.84966054180456,0 56.22032197208517,25.84966354350308,0 56.22078662873216,25.85001532604772,0 56.22080178754364,25.85002707061453,0 56.22082073205754,25.85004175069306,0 56.22135036100756,25.8507297192359,0 56.22135987286981,25.85074821959648,0 56.22157843425128,25.85176910085443,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
