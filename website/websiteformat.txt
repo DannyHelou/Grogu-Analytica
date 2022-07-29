@@ -1,0 +1,13 @@
+pages: 
+
+1. Homepage
+2. About us
+3. Our projects
+4. Our team
+5. Grogu<3
+
+
+Pages subs:
+
+1.
+    a. 
