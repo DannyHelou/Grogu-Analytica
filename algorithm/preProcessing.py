@@ -1,24 +1,32 @@
+from turtle import clear
 from runTimeFunctions import *
-from coordsManagement import *
+import initializingInput as initin
+import coordsManagement
 
 
 
 #initial variables needed
 # arr = [[5, 4, 3], 
 #        [6, 2, 1], 
-#        [1, 6, 3],
-#        [1, 2, 3]]
-arr = outputArray()
+#        [1, 7, 3],
+#        [2, 2, 3]]
+txtFile = open("testerCoords.txt", "r")
+arr = initin.initializeArray(*coordsManagement.rawData(txtFile))
 
 
 toBeVisited = []
 
 #Node class for all datapoints
 class Node():
-    def __init__(self, height):
-        self.longitude = 0.0
-        self.latitude = 0.0
-        self.height = height
+    def __init__(self, dataInput):
+        #should be input parameters
+        if isInt(dataInput):
+            self.height = dataInput
+        else:
+            self.longitude = dataInput[1]
+            self.latitude = dataInput[0]
+            self.height = float(dataInput[2])
+        
         self.fullPathDistance = 9999999999
         self.prevNode = None
         self.UP = None
@@ -35,8 +43,8 @@ def __initRows():
     for row in range(1, len(arr)-1):
         for column in range(1, len((arr[row])[1:len(arr[row])])):
             arr[row][column] = Node(arr[row][column])
-    #start point
-    arr[2][1].fullPathDistance=0
+    
+    
 
     for row in range(1, len(arr)-1):
         for column in range(1, len((arr[row])[1:len(arr[row])])):
@@ -52,27 +60,29 @@ def __initRows():
             arr[row][column].latitude = 0
 
 
-#finding all of the nodes that need to be visited
+#finding all of the nodes that need to be visited(REDUNDANT, DONT NEED) 
 def __toBeVisited():
     for row in range(1, len(arr)-1):
         for column in range(1, len((arr[row])[1:len(arr[row])])):
             toBeVisited.append([row, column])
 
 
-fillBox(arr)
-__initRows()
-__toBeVisited()
 
-#just a thing that shows
+if __name__ == '__main__':
+    #setting up all prereqs
+    fillBox(arr)
+    __initRows()
+    __toBeVisited() #<- dont really need this was just for testing purposes
+    
+    #initializing and running the algorithm for our start point
+    arr[1][2].fullPathDistance = 0
+    checkSurrounding([1, 2], arr)
 
-checkSurrounding([2, 1], arr)
 
-for row in range(1, len(arr)-1):
-    for column in range(1, len((arr[row])[1:len(arr[row])])):
-        if arr[row][column].fullPathDistance < 10:
-
+    #Printing the visuals for the output
+    for row in range(1, len(arr)-1):
+        for column in range(1, len((arr[row])[1:len(arr[row])])):
             arr[row][column] = arr[row][column].fullPathDistance
-        else: 
-            arr[row][column] = 0
-for i in arr:
-    print(i)
+    for i in arr:
+        print(i)
+
